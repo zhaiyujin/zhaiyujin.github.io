@@ -393,7 +393,7 @@ pre {
 }
 .post {
   padding: 20px;
-  background: #fff;
+  background: #ffffff8a;
   margin-bottom: 15px;
   position: relative;
   overflow: hidden;
@@ -851,7 +851,7 @@ pre {
   float: right;
 }
 .sidebar .widget {
-  background: #fff;
+  background: #ffffff8a;
   padding: 16px 25px;
 }
 .sidebar .widget ul {
