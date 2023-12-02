@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
@@ -26,6 +26,13 @@
     </nav>
 </aside>
 <main>
+    <section style="padding: 0;background: url(img/bg-1.png) fixed;">
+        <audio style="width:100%" id="audioPlayer" controls loop autoplay>
+            <!--<source src="horse.mp3" type="audio/mpeg">-->
+            <source src="static/天使 .ogg" type="audio/ogg">
+            <embed height="50" width="100" src="static/天使 .ogg">
+        </audio>
+    </section>
     <section id="info">
         <div class="wrap">
             <h2 class="title">个人资料</h2>
@@ -141,11 +148,7 @@
     </footer>
 </main>
 
-<audio id="audioPlayer" controls loop autoplay>
-    <!--<source src="horse.mp3" type="audio/mpeg">-->
-    <source src="static/天使 .ogg" type="audio/ogg">
-    <embed height="50" width="100" src="static/天使 .ogg">
-</audio>
+
 
 <script>
 
